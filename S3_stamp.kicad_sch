@@ -4831,7 +4831,7 @@
 		(uuid "8563d721-33b3-432f-b185-bb5356f43bc4")
 	)
 	(no_connect
-		(at 113.03 170.18)
+		(at 119.38 135.89)
 		(uuid "ae83b881-6600-4493-a2c4-05536df0f45a")
 	)
 	(no_connect
@@ -5984,7 +5984,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 172.72) (xy 96.52 173.99)
+			(xy 102.87 138.43) (xy 102.87 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5994,7 +5994,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 172.72) (xy 96.52 172.72)
+			(xy 104.14 138.43) (xy 102.87 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6534,6 +6534,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 135.89) (xy 104.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "bc79a4dd-adcc-4afe-b115-3c80ca002371")
+	)
+	(wire
+		(pts
 			(xy 115.57 95.25) (xy 115.57 92.71)
 		)
 		(stroke
@@ -6904,7 +6914,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 170.18) (xy 97.79 170.18)
+			(xy 91.44 135.89) (xy 92.71 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6924,7 +6934,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 166.37) (xy 96.52 167.64)
+			(xy 102.87 132.08) (xy 102.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6934,7 +6944,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 167.64) (xy 96.52 167.64)
+			(xy 104.14 133.35) (xy 102.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7164,7 +7174,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 154.94) (xy 96.52 156.21)
+			(xy 102.87 120.65) (xy 102.87 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7212,17 +7222,6 @@
 			(justify left bottom)
 		)
 		(uuid "af337fe3-e1b8-43ce-8998-6123724f4393")
-	)
-	(label "GPIO21"
-		(at 85.09 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef95f2ed-357f-41e5-9633-c7675444fa83")
 	)
 	(global_label "GPIO0{slash}BOOT"
 		(shape input)
@@ -8544,6 +8543,28 @@
 			)
 		)
 	)
+	(global_label "GPIO21"
+		(shape input)
+		(at 91.44 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be2f4a6d-a80b-4503-a58a-c7cddb71eb5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.5605 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO38"
 		(shape input)
 		(at 166.37 72.39 0)
@@ -9704,7 +9725,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 96.52 154.94 0)
+		(at 102.87 120.65 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9713,7 +9734,7 @@
 		(dnp no)
 		(uuid "15761205-8b4d-4218-9ae9-9c4005d04033")
 		(property "Reference" "#PWR0137"
-			(at 96.52 158.75 0)
+			(at 102.87 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,7 +9743,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 151.13 0)
+			(at 102.87 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,7 +9751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 154.94 0)
+			(at 102.87 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,7 +9760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 154.94 0)
+			(at 102.87 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +9769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 154.94 0)
+			(at 102.87 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,6 +9931,76 @@
 			(project ""
 				(path "/872e912f-cc14-4edf-9f9a-f509de06f155"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 97.79 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2079dfa6-b172-4441-bc96-37c3d7960822")
+		(property "Reference" "JP3"
+			(at 98.4249 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_Neopixel_VDD"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d27d700b-f52c-4656-9acb-d3bc94039f9f")
+		)
+		(pin "2"
+			(uuid "e9c9a03d-c9dc-4bd3-8e38-ff14bb2b7f98")
+		)
+		(instances
+			(project "S3_stamp"
+				(path "/872e912f-cc14-4edf-9f9a-f509de06f155"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -11025,7 +11116,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 96.52 161.29 270)
+		(at 102.87 127 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11034,7 +11125,7 @@
 		(dnp no)
 		(uuid "57333bd4-6257-4da4-ba2f-e184de265f18")
 		(property "Reference" "JP1"
-			(at 91.44 161.9249 90)
+			(at 97.79 127.6349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11043,7 +11134,7 @@
 			)
 		)
 		(property "Value" "Jumper_Neopixel_VDD"
-			(at 99.06 161.29 0)
+			(at 105.41 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +11143,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 96.52 161.29 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +11152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 161.29 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11070,7 +11161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 161.29 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11836,7 +11927,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 173.99 0)
+		(at 102.87 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11844,7 +11935,7 @@
 		(dnp no)
 		(uuid "78743914-4481-48a3-b9dc-932e4b9f6415")
 		(property "Reference" "#PWR0115"
-			(at 96.52 180.34 0)
+			(at 102.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,7 +11944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 177.8 0)
+			(at 102.87 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +11952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 173.99 0)
+			(at 102.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +11961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 173.99 0)
+			(at 102.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11879,7 +11970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 173.99 0)
+			(at 102.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,7 +13524,7 @@
 	)
 	(symbol
 		(lib_id "LED_Extra:WS2812B-2020")
-		(at 105.41 170.18 0)
+		(at 111.76 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13441,7 +13532,7 @@
 		(dnp no)
 		(uuid "c4087ea3-aac9-4e08-84ce-bb0cb5535ce0")
 		(property "Reference" "D3"
-			(at 109.22 163.83 0)
+			(at 115.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13449,7 +13540,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 106.68 176.53 0)
+			(at 113.03 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13457,7 +13548,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 106.68 177.8 0)
+			(at 113.03 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13467,7 +13558,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4a8239e52df5e0b5cc2eb96834c5d8b6/WS2812B-2020.pdf"
-			(at 107.95 179.705 0)
+			(at 114.3 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +13568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 170.18 0)
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +13577,7 @@
 			)
 		)
 		(property "LCSC" "C965555"
-			(at 105.41 170.18 0)
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
