@@ -10646,14 +10646,14 @@
 			)
 		)
 		(property "Value" "Conn_West"
-			(at 231.648 87.63 90)
+			(at 221.488 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RP2040_stamp:Castellated_1x10_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical"
 			(at 228.6 87.63 0)
 			(effects
 				(font
@@ -11556,14 +11556,14 @@
 			)
 		)
 		(property "Value" "Conn_North"
-			(at 241.3 77.978 90)
+			(at 224.79 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RP2040_stamp:Castellated_1x10_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical"
 			(at 241.3 74.93 0)
 			(effects
 				(font
@@ -11787,14 +11787,14 @@
 			)
 		)
 		(property "Value" "Conn_East"
-			(at 253.492 87.63 90)
+			(at 261.874 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RP2040_stamp:Castellated_1x10_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical"
 			(at 256.54 87.63 0)
 			(effects
 				(font
@@ -12008,14 +12008,14 @@
 			)
 		)
 		(property "Value" "Conn_South"
-			(at 241.3 99.822 90)
+			(at 242.316 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "RP2040_stamp:Castellated_1x10_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical"
 			(at 241.3 102.87 0)
 			(effects
 				(font
